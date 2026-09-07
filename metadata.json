@@ -1,0 +1,6 @@
+{
+  "name": "Petuk Gang",
+  "description": "Authentic Bangladeshi traditional food in Patharghata, Chattogram presented in a fresh, modern and youthful experience.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
