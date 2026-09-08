@@ -1,7 +1,7 @@
 export const translations = {
   en: {
     brandName: "Petuk Gang",
-    tagline: "Food just not provides energy, it also provides senergy.",
+    tagline: "Food just not provides energy, it also provides synergy.",
     locationName: "Patharghata, Chattogram",
     fullAddress: "Patharghata, Chattogram, Bangladesh",
     nav: {
@@ -18,7 +18,7 @@ export const translations = {
     hero: {
       badge: "Traditional Bangladeshi Food • Modern Vibe",
       title: "PETUK GANG",
-      subtext: "Food just not provides energy, it also provides senergy.",
+      subtext: "Food just not provides energy, it also provides synergy.",
       location: "Patharghata, Chattogram",
       exploreMenu: "Explore Menu",
       orderNow: "Order Now",

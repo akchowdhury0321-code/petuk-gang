@@ -3,7 +3,7 @@ import { RestaurantConfig } from '../types';
 export const config: RestaurantConfig = {
   restaurantName: "Petuk Gang",
   restaurantNameBn: "পেটুক গ্যাং",
-  tagline: "Food just not provides energy, it also provides senergy.",
+  tagline: "Food just not provides energy, it also provides synergy.",
   taglineBn: "খাবার শুধু এনার্জি দেয় না, এটি সিনার্জিও দেয়।",
   location: "Patharghata, Chattogram",
   locationBn: "পাথরঘাটা, চট্টগ্রাম",
@@ -22,7 +22,7 @@ export const config: RestaurantConfig = {
 
 export const restaurantData = {
   name: "Petuk Gang",
-  tagline: "Food just not provides energy, it also provides senergy.",
+  tagline: "Food just not provides energy, it also provides synergy.",
   location: "Patharghata, Chattogram, Bangladesh",
   cuisine: "Traditional Bangladeshi food",
 

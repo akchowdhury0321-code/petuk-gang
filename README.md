@@ -1,6 +1,6 @@
 # 🍛 Petuk Gang — Traditional Bangladeshi Cuisine
 
-> *"Food just not provides energy, it also provides senergy."*
+> *"Food just not provides energy, it also provides synergy."*
 
 An authentic, modern web application and AI assistant for **Petuk Gang**, a traditional Bangladeshi restaurant located in Patharghata, Chattogram.
 

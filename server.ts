@@ -13,7 +13,7 @@ app.use(express.json());
 
 const restaurantData = {
   name: "Petuk Gang",
-  tagline: "Food just not provides energy, it also provides senergy.",
+  tagline: "Food just not provides energy, it also provides synergy.",
   location: "Patharghata, Chattogram, Bangladesh",
   cuisine: "Traditional Bangladeshi food",
   menu: [

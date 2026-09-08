@@ -50,12 +50,29 @@ export const Hero: React.FC = () => {
 
             {/* Supporting Tagline */}
             <motion.p
+              id="hero-tagline-quote"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
-              className="text-xl sm:text-2xl md:text-3xl font-medium text-[#241812]/90 leading-snug max-w-xl italic"
+              className="relative text-xl sm:text-2xl md:text-3xl font-medium text-[#241812] leading-snug max-w-xl italic border-l-4 border-[#D96A27] pl-4 sm:pl-5 py-2 bg-[#D96A27]/8 rounded-r-2xl shadow-xs"
             >
-              "{t.hero.subtext}"
+              {language === 'bn' ? (
+                <>
+                  “খাবার শুধু এনার্জি দেয় না, এটি{' '}
+                  <span className="text-[#D96A27] font-bold not-italic underline decoration-[#D96A27]/40 underline-offset-4">
+                    সিনার্জিও
+                  </span>{' '}
+                  দেয়।”
+                </>
+              ) : (
+                <>
+                  “Food just not provides energy, it also provides{' '}
+                  <span className="text-[#D96A27] font-bold not-italic underline decoration-[#D96A27]/40 underline-offset-4">
+                    synergy
+                  </span>
+                  .”
+                </>
+              )}
             </motion.p>
 
             {/* Highlights bullet points */}
